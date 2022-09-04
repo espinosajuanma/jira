@@ -40,7 +40,7 @@ To activate bash completion just use the `complete -C` option from your
 completion is done by the program itself.
 
 ```
-complete -C twitch twitch
+complete -C jira jira
 ```
 
 If you don't have bash or tab completion check use the shortcut commands
