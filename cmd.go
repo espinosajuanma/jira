@@ -13,7 +13,7 @@ import (
 var Cmd = &Z.Cmd{
 	Name:      `jira`,
 	Summary:   `collection of jira helper commands`,
-	Version:   `v0.0.1`,
+	Version:   `v0.0.2`,
 	Commands:  []*Z.Cmd{help.Cmd, conf.Cmd, taskCmd},
 	Shortcuts: Z.ArgMap{},
 }
