@@ -19,7 +19,7 @@ go install github.com/espinosajuanma/jira/cmd/jira@latest
 
 Composed
 
-```
+```go
 package cmds
 
 import (
@@ -45,3 +45,19 @@ complete -C twitch twitch
 
 If you don't have bash or tab completion check use the shortcut commands
 instead.
+
+## Configuration
+
+```
+jira conf edit
+```
+
+```yaml
+url: https://PROJECT.atlassian.net
+user: you@email.com
+pass: TOKEN
+prefix: TaskPrefix
+statuses:
+  todo: "TO DO"
+  progress: "IN PROGRESS"
+```
